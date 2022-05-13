@@ -114,3 +114,6 @@ values:
     value: 414.40
   2021-04-01:
     value: 414.81
+  2022-04-01:
+    value: 422.28
+    reference: https://www.service-public.fr/particuliers/actualites/A14781
