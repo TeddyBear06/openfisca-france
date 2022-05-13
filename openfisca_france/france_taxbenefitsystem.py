@@ -11,6 +11,7 @@ from openfisca_france.situation_examples import couple
 
 
 COUNTRY_DIR = os.path.dirname(os.path.abspath(__file__))
+COUNTRY_DIR_PARAMETERS = os.path.abspath('/home/worker/')
 
 
 class FranceTaxBenefitSystem(TaxBenefitSystem):
@@ -24,7 +25,7 @@ class FranceTaxBenefitSystem(TaxBenefitSystem):
     def __init__(self):
         TaxBenefitSystem.__init__(self, entities)
 
-        param_dir = os.path.join(COUNTRY_DIR, 'parameters')
+        param_dir = os.path.join(COUNTRY_DIR_PARAMETERS, 'parameters')
         self.load_parameters(param_dir)
 
         self.add_variables_from_directory(os.path.join(COUNTRY_DIR, 'model'))

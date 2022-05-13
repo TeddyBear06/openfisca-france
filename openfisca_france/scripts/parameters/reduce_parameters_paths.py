@@ -6,7 +6,7 @@ import shutil
 import yaml
 
 
-PARENT_DIRECTORY = os.path.abspath('../..')
+PARENT_DIRECTORY = os.path.abspath('/home/worker/')
 PATH_LENGTH_TO_IGNORE = len(PARENT_DIRECTORY)
 
 PARAMETERS_DIRECTORY = os.path.join(PARENT_DIRECTORY, 'parameters')
@@ -120,6 +120,7 @@ def parse_and_clean(directory, paths_to_clean):
 
 long_parameters_paths = list_long_paths(PARAMETERS_DIRECTORY)
 logger.info("{} directories have files with more than {} characters in their paths starting from this directory: {}".format(len(long_parameters_paths), PATH_MAX_LENGTH, PARENT_DIRECTORY).encode('utf-8'))
+logger.warning("TEST Contenu des parameters path : {} dans le dossier : {}".format(long_parameters_paths, PARAMETERS_DIRECTORY))
 
 while len(long_parameters_paths) > 0:
     parse_and_clean(PARAMETERS_DIRECTORY, long_parameters_paths)
