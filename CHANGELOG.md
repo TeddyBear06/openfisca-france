@@ -1,5 +1,13 @@
 # Changelog
 
+### 117.1.3 [#1651](https://github.com/openfisca/openfisca-france/pull/1651)
+
+* Changement mineur.
+* Périodes concernées : toutes.
+* Zones impactées : `openfisca_france/assets/apl/20110914_zonage.csv`.
+* Détails :
+  - Modification de la zone 2 en 1 pour la ville Trilport.
+
 ### 117.1.2 [#1904](https://github.com/openfisca/openfisca-france/pull/1904)
 
 * Changement mineur dans les métadonnées des paramètres
