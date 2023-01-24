@@ -88,6 +88,16 @@ values:
     value: 18473
   2021-01-01:
     value: 18655
+  2021-10-01:
+    value: 19073.6
+  2022-01-01:
+    value: 19237.4
+  2022-05-01:
+    value: 19747
+  2022-08-01:
+    value: 20147.4
+  2023-01-01:
+    value: 20511.4
 metadata:
   short_label: Apprentis
   ipp_csv_id: exo_apprenti
@@ -152,6 +162,11 @@ metadata:
       title: Cf note (1)
     2021-01-01:
       title: Cf note (1)
+    2022-01-01:
+      title: Cf note (1)
+    2023-01-01:
+      title: Cf note (1)
+
   official_journal_date:
     2001-01-01: "2001-12-29"
     2007-01-01: "2008-04-02"
