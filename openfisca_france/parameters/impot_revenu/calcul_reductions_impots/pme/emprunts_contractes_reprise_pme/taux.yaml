@@ -8,6 +8,8 @@ values:
     value: 0.18
   2019-08-10:
     value: 0.25
+  2023-01-01:
+    value: 0.18
 metadata:
   short_label: Taux
   ipp_csv_id: tx_pme
@@ -22,6 +24,9 @@ metadata:
       href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042220890
     - title: Décret n° 2021-559 du 06/05/2021
       href: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043486453
+    2023-01-01:
+      title: Article 199 terdecies-0 A du CGI
+      href: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046860135/2023-01-01/
   official_journal_date:
     2007-01-01: "2008-08-05"
     2008-01-01: "2008-12-31"
@@ -35,6 +40,8 @@ metadata:
     - title: Augmentation des seuils des chiffres d'affaires (de 140 à 260 millions FRF) ou de total de bilan (de 70 à 175 millions FRF)
     2019-08-10:
     - title: Le montant de la réduction d'impôt sur le revenu a été augmenté à 25 % pour les investissements effectués à partir du 10 août 2020 jusqu'au 31 décembre 2020. Cette modification a été reconduite jusqu'au 31 décembre 2021.
+    2023-01-01:
+    - title: La réduction à 18% était prévue avant même que l'augmentation à 25% n'ait lieu (https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036339197/) mais a été repoussée à de nombreuses reprises.
 documentation: |-
   Notes :
   (1) Souscription au capital des PME : 1° du I de l'article 199 terdecies OA du CGI
