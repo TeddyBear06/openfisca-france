@@ -54,6 +54,8 @@ values:
     value: 394
   2021-01-01:
     value: 400
+  2022-01-01:
+    value: 421
 metadata:
   short_label: Minimum
   ipp_csv_id: min_abtpen
@@ -133,6 +135,9 @@ metadata:
     - title: Revalorisation comme prevue dans l'article 83 de la Loi 2020-1721 du 29/12/2020 (LF pour 2021)
     - title: Art. 2 de la loi no 2021-1900 du 30 décembre 2021 de finances pour 2022
       href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000044637653
+    2022-01-01:
+    - title: LOI n° 2022-1726, art. 2 du 30/12/2022 (LF pour 2023)
+      href: https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000046845640
   official_journal_date:
     1978-01-01: "1978-12-30"
     1992-01-01: "1992-12-31"
@@ -159,6 +164,7 @@ metadata:
     2018-01-01: "2018-12-30"
     2019-01-01: "2019-12-29"
     2020-01-01: "2020-12-30"
+    2022-01-01: "2022-12-31"
   notes:
     1978-01-01:
     - title: Le maximum sur les pensions est pris en compte par foyer fiscal pour l'imposition des revenus de 1977 et 1978.
@@ -178,6 +184,8 @@ metadata:
     - title: Revalorisation de (10 084 / 10 064) suivant l'évolution de la limite supérieure de la première tranche du barème de l'impôt sur le revenu
     2021-01-01:
     - title: Les limites sont révisées chaque année dans la même proportion que la limite supérieure de la première tranche du barème de l'impôt sur le revenu. En 2021, l'augmentation était de 1,4 %.
+    2022-01-01:
+    - title: revalorisation 10777/10225 * 400
 documentation: |-
   Notes :
   (1) Entre 1915 et 1944, des déductions du revenu imposable pour charges des familles étaient appliquées pour le calcul de l'impôt général sur le revenu (et de l'impôt cédulaire sur les salaires) sous forme d'abattement général dépendant du statut marital et du nombre d'enfant.
