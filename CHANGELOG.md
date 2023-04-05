@@ -1,5 +1,11 @@
 # Changelog
 
+# 145.0.1 [#2076](https://github.com/openfisca/openfisca-france/pull/2076)
+
+* Périodes concernées : toutes
+* Zones impactées : `prestations_sociales/prestations_familiales/prestations_generales/af/af_cm/age2` et `prestations_sociales/prestations_familiales/prestations_generales/af/af_cm/age3`
+* Détails : Allocation de soutien familial : Renomme les paramètres "âge maximal" pour lever le doute sur les termes "forfait de 2003 inclus"
+
 # 145.0.0 [#2039](https://github.com/openfisca/openfisca-france/pull/2039)
 
 * Amélioration technique.
